@@ -9,27 +9,84 @@ body {
   padding: 1.5rem;
 }
 
+.container_lg {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .container {
-  max-width: 600px;
-  /* margin: 0 auto; */
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+}
+
+ul {
+  list-style: none;
+  line-height: 2.5;
 }
 
 header {
   font-size: 1.5rem;
   padding: 0.5rem;
+}
 
-  p {
-    font-size: 1rem;
+.info {
+  font-size: 1rem;
+  color: #8c8a8b;
+}
+
+
+.buttons {
+  font-size: 1rem;
+  text-align: end;
+  padding: 1rem;
+
+  span {
     color: #8c8a8b;
-  }
-
-  .buttons {
-    font-size: 1rem;
-    text-align: end;
-    padding: 1rem;
-    span{
-      color: #8c8a8b;
-    }
   }
 }
 
+
+main {
+  padding: 20px;
+}
+
+.card_deck {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  border-radius: 1.5rem;
+  padding: 40px;
+  margin: 2rem;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+  width: calc(100% / 3);
+  flex-shrink: 0;
+  min-width: 300px;
+}
+
+.price {
+  text-align: center;
+  font-weight: 400;
+  color: white;
+}
+
+.plan {
+  position: relative;
+  bottom: 0;
+}
+
+
+.card_deck>.card:nth-of-type(odd) {
+  background-color: white;
+}
+
+.card_deck>.card:nth-of-type(even) {
+  background-color: #6500ff;
+  color: white;
+}

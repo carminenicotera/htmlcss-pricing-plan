@@ -12,11 +12,13 @@
 <body>
 
   <!-- Header-->
-  <div class="container">
+  <div class="container_lg">
     <header>
-      <h1>Our Pricing Plan</h1>
-      <p>We are an industry-leading company that values honesty,
-        integrity and efficiency, building quality products.</p>
+      <div class="info">
+        <h1>Our Pricing Plan</h1>
+        <p>We are an industry-leading company that values honesty,
+          integrity and efficiency, building quality products.</p>
+      </div>
       <div class="buttons">
         <span>Monthly </span><i class="bi bi-toggle-on"></i>
         <span>Yearly </span><i class="bi bi-toggle-off"></i>
@@ -28,115 +30,116 @@
   <!-- Main-->
   <main>
     <div class="container">
-      <div class="card">
-        <h1>Basic</h1>
-        <p>Most popular</p>
-        <div class="price">
-          <span>&#36;</span>
-          <span>2.45</span>
-          <span>/mo</span>
+      <div class="card_deck">
+        <div class="card">
+          <h1>Basic</h1>
+          <p>Most popular</p>
+          <div class="price">
+            <span class="currency">&#36;</span>
+            <span class="price">2.45</span>
+            <span class="frequency">/mo</span>
+          </div>
+          <div class="sales">
+            <span>Yearly </span>
+            <span>15&#37; Off</span>
+          </div>
+          <button class="plan">Choose plan</button>
+          <ul class="options">
+            <li>
+              <span><i class="bi bi-check-lg"></i> Umlimited Products</span>
+            </li>
+            <li>
+              <span><i class="bi bi-check-lg"></i> Custom Permissions</span>
+            </li>
+            <li>
+              <span><i class="bi bi-check-lg"></i> Custom Infrastructure</span>
+            </li>
+            <li>
+              <span><i class="bi bi-x-lg"></i> Custom Design &amp; features</span>
+            </li>
+            <li>
+              <span><i class="bi bi-x-lg"></i> Unlimited updates</span>
+            </li>
+            <li>
+              <span><i class="bi bi-x-lg"></i> Unlimited Infrastructure</span>
+            </li>
+          </ul>
         </div>
-        <div class="sales">
-          <span>Yearly </span>
-          <span>15&#37; Off</span>
-        </div>
-        <button class="plan">Choose plan</button>
-        <ul class="options">
-          <li>
-            <span><i class="bi bi-check-lg"></i> Umlimited Products</span>
-          </li>
-          <li>
-            <span><i class="bi bi-check-lg"></i> Custom Permissions</span>
-          </li>
-          <li>
-            <span><i class="bi bi-check-lg"></i> Custom Infrastructure</span>
-          </li>
-          <li>
-            <span><i class="bi bi-x-lg"></i> Custom Design 	&amp; features</span>
-          </li>
-          <li>
-            <span><i class="bi bi-x-lg"></i> Unlimited updates</span>
-          </li>
-          <li>
-            <span><i class="bi bi-x-lg"></i> Unlimited Infrastructure</span>
-          </li>
-        </ul>
-      </div>
-      <!-- /.card -->
-       
-      <div class="card">
-        <h1>Professional</h1>
-        <p>Recommended</p>
-        <div class="price">
-          <span>&#36;</span>
-          <span>4.45</span>
-          <span>/mo</span>
-        </div>
-        <div class="sales">
-          <span>Yearly </span>
-          <span>15&#37; Off</span>
-        </div>
-        <button class="plan">Choose plan</button>
-        <ul class="options">
-          <li>
-            <span><i class="bi bi-check-lg"></i> Umlimited Products</span>
-          </li>
-          <li>
-            <span><i class="bi bi-check-lg"></i> Custom Permissions</span>
-          </li>
-          <li>
-            <span><i class="bi bi-check-lg"></i> Custom Infrastructure</span>
-          </li>
-          <li>
-            <span><i class="bi bi-check-lg"></i> Custom Design 	&amp; features</span>
-          </li>
-          <li>
-            <span><i class="bi bi-x-lg"></i> Unlimited updates</span>
-          </li>
-          <li>
-            <span><i class="bi bi-x-lg"></i> Unlimited Infrastructure</span>
-          </li>
-        </ul>
-      </div>
-      <!-- /.card -->
-       
-      <div class="card">
-        <h1>Ultimate</h1>
-        <p>Best value</p>
-        <div class="price">
-          <span>&#36;</span>
-          <span>2.45</span>
-          <span>/mo</span>
-        </div>
-        <div class="sales">
-          <span>Yearly </span>
-          <span>15&#37; Off</span>
-        </div>
-        <button class="plan">Choose plan</button>
-        <ul class="options">
-          <li>
-            <span><i class="bi bi-check-lg"></i> Umlimited Products</span>
-          </li>
-          <li>
-            <span><i class="bi bi-check-lg"></i> Custom Permissions</span>
-          </li>
-          <li>
-            <span><i class="bi bi-check-lg"></i> Custom Infrastructure</span>
-          </li>
-          <li>
-            <span><i class="bi bi-check-lg"></i> Custom Design 	&amp; features</span>
-          </li>
-          <li>
-            <span><i class="bi bi-check-lg"></i> Unlimited updates</span>
-          </li>
-          <li>
-            <span><i class="bi bi-check-lg"></i> Unlimited Infrastructure</span>
-          </li>
-        </ul>
-      </div>
-      <!-- /.card -->
-    </div>
+        <!-- /.card -->
 
+        <div class="card">
+          <h1>Professional</h1>
+          <p>Recommended</p>
+          <div class="price">
+            <span class="currency">&#36;</span>
+            <span class="price">4.45</span>
+            <span class="frequency">/mo</span>
+          </div>
+          <div class="sales">
+            <span>Yearly </span>
+            <span>15&#37; Off</span>
+          </div>
+          <button class="plan">Choose plan</button>
+          <ul class="options">
+            <li>
+              <span><i class="bi bi-check-lg"></i> Umlimited Products</span>
+            </li>
+            <li>
+              <span><i class="bi bi-check-lg"></i> Custom Permissions</span>
+            </li>
+            <li>
+              <span><i class="bi bi-check-lg"></i> Custom Infrastructure</span>
+            </li>
+            <li>
+              <span><i class="bi bi-check-lg"></i> Custom Design &amp; features</span>
+            </li>
+            <li>
+              <span><i class="bi bi-x-lg"></i> Unlimited updates</span>
+            </li>
+            <li>
+              <span><i class="bi bi-x-lg"></i> Unlimited Infrastructure</span>
+            </li>
+          </ul>
+        </div>
+        <!-- /.card -->
+
+        <div class="card">
+          <h1>Ultimate</h1>
+          <p>Best value</p>
+          <div class="price">
+            <span class="currency">&#36;</span>
+            <span class="price">2.45</span>
+            <span class="frequency">/mo</span>
+          </div>
+          <div class="sales">
+            <span>Yearly </span>
+            <span>15&#37; Off</span>
+          </div>
+          <button class="plan">Choose plan</button>
+          <ul class="options">
+            <li>
+              <span><i class="bi bi-check-lg"></i> Umlimited Products</span>
+            </li>
+            <li>
+              <span><i class="bi bi-check-lg"></i> Custom Permissions</span>
+            </li>
+            <li>
+              <span><i class="bi bi-check-lg"></i> Custom Infrastructure</span>
+            </li>
+            <li>
+              <span><i class="bi bi-check-lg"></i> Custom Design &amp; features</span>
+            </li>
+            <li>
+              <span><i class="bi bi-check-lg"></i> Unlimited updates</span>
+            </li>
+            <li>
+              <span><i class="bi bi-check-lg"></i> Unlimited Infrastructure</span>
+            </li>
+          </ul>
+        </div>
+        <!-- /.card -->
+      </div>
+    </div>
   </main>
 </body>
 
